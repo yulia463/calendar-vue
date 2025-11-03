@@ -1,11 +1,11 @@
 <template>
   <div class="calendar">
     <div class="header">
-      <button @click="prevMonth">‹</button>
+      <button class="nav-btn" @click="prevMonth">‹</button>
       <div class="month-year">
         {{ monthNames[language][currentMonth] }} {{ currentYear }}
       </div>
-      <button @click="nextMonth">›</button>
+      <button class="nav-btn" @click="nextMonth">›</button>
     </div>
 
     <div class="weekdays">
@@ -132,7 +132,7 @@ export default {
   width: 340px;
   margin: 20px auto;
   border: 2px solid #ff5252;
-  border-radius: 10px;
+  border-radius: 18px;
   padding: 15px;
   background-color: #fff8f8;
   box-shadow: 0 4px 10px rgba(255, 82, 82, 0.3);
@@ -151,7 +151,7 @@ export default {
   color: #ff5252;
   font-size: 18px;
   padding: 5px 10px;
-  border-radius: 50%;
+  border-radius: 45%;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -189,4 +189,13 @@ export default {
   color: white;
   font-weight: bold;
 }
+.nav-btn {
+  font-size: 36px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.nav-btn:hover {
+  color: #ff1744;
+}
+
 </style>
