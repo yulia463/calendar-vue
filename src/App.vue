@@ -11,7 +11,7 @@
         @date-selected="onDateSelected"
     />
     <p v-if="selectedDate" class="selected-date">
-      Вы выбрали: {{ formattedDate }}
+      Выбранная дата: {{ formattedDate }}
     </p>
   </div>
 </template>
