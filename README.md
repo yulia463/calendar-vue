@@ -1,4 +1,4 @@
-# calendar-vue
+# calendar vue project
 
 ## Project setup
 ```
@@ -19,6 +19,6 @@ yarn build
 ```
 yarn lint
 ```
+### Author Yulia Slatvitskaya 
+https://github.com/yulia463
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
